@@ -10,8 +10,7 @@
     }
   ],
   "require": {
-    "php": "^7.3",
-    "ronijan/logger": "^1.0"
+    "php": "^7.3"
   },
   "config": {
     "optimize-autoloader": true,
