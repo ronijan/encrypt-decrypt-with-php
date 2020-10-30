@@ -1,0 +1,27 @@
+{
+  "name": "ronijan/encrypt-decrypt",
+  "description": "Simple Encrypt and Decrypt with PHP",
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Huseyin Khalil",
+      "email": "huseyinkhalil@web.de"
+    }
+  ],
+  "require": {
+    "php": "^7.3",
+    "ronijan/logger": "^1.0"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Ronijan\\EncryptDecrypt\\": "src"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
