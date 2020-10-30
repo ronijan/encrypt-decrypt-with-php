@@ -1,5 +1,5 @@
 {
-  "name": "ronijan/encrypt-decrypt",
+  "name": "ronijan/encrypt-decrypt-with-php",
   "description": "Simple Encrypt and Decrypt with PHP",
   "type": "package",
   "license": "MIT",
