@@ -12,8 +12,8 @@ class Encrypt
      */
     public function encrypt($pureString, $encryptionKey, $cipher = "AES-128-CTR")
     {
-        $iv_length = openssl_cipher_iv_length($cipher);
-        $iv = sha1($iv_length);
+        $ivLength = openssl_cipher_iv_length($cipher);
+        $iv = sha1($ivLength);
         $options = 2;
 
         return openssl_encrypt($pureString, $cipher, $encryptionKey, $options, $iv);
