@@ -5,13 +5,14 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Huseyin Khalil",
-      "email": "huseyinkhalil@web.de"
+      "name": "Ronijan Khalil",
+      "email": "7ussein.5alil@gmail.com"
     }
   ],
   "require": {
-    "php": "^7.3",
-    "ext-openssl": "*"
+    "php": "^7.4",
+    "ext-openssl": "*",
+    "ext-mbstring": "*"
   },
   "config": {
     "optimize-autoloader": true,

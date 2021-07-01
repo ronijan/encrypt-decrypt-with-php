@@ -37,7 +37,6 @@ class EncryptDecrypt
             $key,
             OPENSSL_RAW_DATA,
             $randomBytes
-
         );
     }
 }
