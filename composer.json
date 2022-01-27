@@ -1,16 +1,16 @@
 {
   "name": "ronijan/encrypt-decrypt-with-php",
-  "description": "Simple Encrypt and Decrypt with PHP",
+  "description": "Simple Encrypt and Decrypt package with PHP",
   "type": "package",
   "license": "MIT",
   "authors": [
     {
-      "name": "Ronijan Khalil",
-      "email": "7ussein.5alil@gmail.com"
+      "name": "Ronijan",
+      "email": "huseyinkhalil@web.de"
     }
   ],
   "require": {
-    "php": "^7.4",
+    "php": "^7.4|^8.0",
     "ext-openssl": "*",
     "ext-mbstring": "*"
   },

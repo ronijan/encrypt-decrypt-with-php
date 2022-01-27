@@ -1,4 +1,4 @@
 .idea
 .git
-vendor
+/vendor
 composer.lock

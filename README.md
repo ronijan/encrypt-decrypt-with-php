@@ -2,8 +2,6 @@
 
 Simple Encrypt and Decrypt with PHP
 
-$ `composer require ronijan/encrypt-decrypt-with-php`
-
 ```php
 <?php
 
@@ -11,16 +9,15 @@ require_once 'vendor/autoload.php';
 
 use Ronijan\EncryptDecrypt\EncryptDecrypt;
 
-$encryptionKey = '8df9e6a4831380fcd49a39042554c253';
+$encryptDecrypt = new EncryptDecrypt();
 
-$encryptDecrypt = new \Ronijan\EncryptDecrypt\EncryptDecrypt();
+$encryptionKey = sha1('SOME-KEY-HERE');
 
-$encrypt = $encryptDecrypt->encrypt('Hello Word', $encryptionKey);
-$decryp = $encryptDecrypt->decrypt($encrypt, $encryptionKey);
- 
-var_dump(die('encrypted:: '. $encrypt. 'decrypted:: '. $decryp));
-     
+// to encrypt
+echo $encryptedText = $encryptDecrypt->encrypt('Hello World', $encryptionKey);
+
+echo '<br>';
+
+// to decrypt
+echo $encryptDecrypt->decrypt($encryptedText, $encryptionKey);
 ```
-
-
-> encrypted:: ls2gqnCGbwQzgvhzzumFWbR+rM10AlEMj0U= decrypted:: Hello Word
